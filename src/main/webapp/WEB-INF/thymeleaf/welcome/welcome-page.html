@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spring Security</title>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="login/login-header" th:remove="tag"></div>
+		</div>
+
+		<div class="gmail-header">
+			<marquee>
+				<span>User Data Fetched from Gmail Account</span>
+			</marquee>
+		</div>
+
+		<div class="gmail-data">
+
+			<div>
+				<label>First Name :</label> <span th:text="${gmailData.given_name}">
+				</span>
+			</div>
+
+			<div>
+				<label>Last Name :</label> <span th:text="${gmailData.family_name}"></span>
+			</div>
+
+			<div>
+				<label>Email :</label><span th:text="${gmailData.email}"></span>
+			</div>
+			<div>
+				<label>Gender :</label><span th:text="${gmailData.gender}"></span>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="star-back-btn">
+		<a th:href="@{/}"><span id="str-lgt">Back</span></a>
+	</div>
+
+
+	<div id="star-body-form">
+		<div class="col-lg-12 col-sm-12 col-xs-12 copyrights">
+			<div th:substituteBy="login/login-footer" th:remove="tag"></div>
+		</div>
+	</div>
+
+</body>
+</html>
