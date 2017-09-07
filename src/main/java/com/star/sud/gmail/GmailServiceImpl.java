@@ -25,8 +25,8 @@ public class GmailServiceImpl implements GmailService {
 
 	private String stateToken;
 
-	private static final String CLIENT_ID = ""; //change accordingly
-	private static final String CLIENT_SECRET = "";//change accordingly
+	private static final String CLIENT_ID = "xxxx"; //change accordingly
+	private static final String CLIENT_SECRET = "xxx";//change accordingly
 
 	private static final Iterable<String> SCOPE = Arrays
 			.asList("https://www.googleapis.com/auth/userinfo.profile;https://www.googleapis.com/auth/userinfo.email"
