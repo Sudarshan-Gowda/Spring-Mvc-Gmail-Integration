@@ -1,4 +1,4 @@
-# Facebook-integration with Spring mvc
+# Gmail-integration with Spring mvc
 
 # Steps to integrate your Application with Facebook 
 
