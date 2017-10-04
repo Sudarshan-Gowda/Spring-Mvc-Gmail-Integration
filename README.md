@@ -1,17 +1,24 @@
 # Gmail-integration with Spring mvc
 
-# Steps to integrate your Application with Facebook 
+# Steps to integrate your Application with Gmail 
 
 `Step 1` : Dowmload this repository & do maven import.                                                                                                                                                                       
-`Step 2` : Give ur `client id` & `client secret` (which is created in developer side) in Js File.
-`Step3 ` : Add the server and Run this Application. Once the project is successfully deployed you will be redirected to login page with               Facebook Icon.                                                                                                             `Step4 ` : Once you Clicked on the Facebook Icon, you will be redirected to Facebook Login Page. Enter your Facebook account    credential
-          or any Facebook account credential. If the credential is valid you will be redicted to welcome page with logged-in User details
-          like `First Name` , `Last Name`, `Email Address`, `Place` etc..                                                           
+`Step 2` : Give ur `client id` & `client secret` (which is created in developer side) in LoginController.Java.
+`Step3 ` : Add the server and Run this Application. Once the project is successfully deployed you will be redirected to login page with               Facebook Icon.                                                                                                             `Step4 ` : Once you Clicked on the Gmail Icon, you will be redirected to Gmail Login Page. Enter your Gmail account    credential
+          or any Gmail account credential. If the credential is valid you will be redicted to welcome page with logged-in User details
+          like `First Name` , `Last Name`, `Email Address`, etc..                                                           
 
-# Steps to create Credential(tokens) in Facebook developer Site.
+# Steps to create Credential(tokens) in Gmail developer Site.
 
-`Step 1`: Hit the URL in any browser `www.developers.facebook.com`.                                                                    
-`Step 2`: Click on get started button & register as developer.                                                                           `Step 3`: Go to `my apps` create new app with any name                                                                                   `Step 4`: You will get App Id & App Secret on the Screen. Note doen that and use it for Facebook Integration with your Application.     `Step 5`: Select `created App` --> `Settings` --> `Terms of Service` URL as [Example (http://localhost:8085/facebook-integration/) ]--> Save.                                                                                                                      
+`Step 1`: Hit the URL in any browser `https://console.developers.google.com`.                                                                    
+`Step 2`: Create new Project                                                                        
+
+`Step 3`: Go to Credentail -> OAuth Consent screen -> Product Name & Save
+
+`Step 4`: Credentail -> create credentails -> OAuth Client Id -> web application -> 
+	    give authorized Js as [Ex (http://localhost:8085)] & redirect URI as [Ex:(http://localhost:8085/genie/gdb/google/result)]
+              
+`Step 5`: you will get a Id & Secret on the Screen. Note down that and use it for Gmail Integration with your Application.                                                                                                                
 
 # Technology Used:    
   Java 8                                                                                                                                
