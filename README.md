@@ -2,11 +2,9 @@
 
 # Steps to integrate your Application with Gmail 
 
-`Step 1` : Dowmload this repository & do maven import.                                                                                                                                                                       
-`Step 2` : Give ur `client id` & `client secret` (which is created in developer side) in LoginController.Java.
-`Step3 ` : Add the server and Run this Application. Once the project is successfully deployed you will be redirected to login page with               Facebook Icon.                                                                                                             `Step4 ` : Once you Clicked on the Gmail Icon, you will be redirected to Gmail Login Page. Enter your Gmail account    credential
-          or any Gmail account credential. If the credential is valid you will be redicted to welcome page with logged-in User details
-          like `First Name` , `Last Name`, `Email Address`, etc..                                                           
+`Step 1` : Dowmload this repository & do maven import.         <br>                                                                     `Step 2` : Give ur `client id` & `client secret` (which is created in developer side) in LoginController.Java.<br>
+`Step3 ` : Add the server and Run this Application. Once the project is successfully deployed you will be redirected to login page with Facebook Icon.   <br>                                                                                                     
+`Step4 ` : Once you Clicked on the Gmail Icon, you will be redirected to Gmail Login Page. Enter your Gmail account credential or any Gmail account credential. If the credential is valid you will be redicted to welcome page with logged-in User details like `First Name` , `Last Name`, `Email Address`, etc..                                                           
 
 # Steps to create Credential(tokens) in Gmail developer Site.
 
@@ -29,8 +27,4 @@
  Eclipse - Mars                                                                                                                        
  Sevrver - Wildfly 10                                                                                                                   
 
-If you people get any issues regarding this repository means, feel free to comment, I will help you guys to run this repository sucessfully.                                                                                                                      
-
-Thank u guys..                                                                                                                      
-Have a great day.   
-
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Gmail-Integration/blob/master/docs/picture1.png"/>
